@@ -1,0 +1,8 @@
+.vscode
+.venv
+.ipynb_checkpoints
+*.JPG
+*.pkl
+*.jpeg
+detectron2
+
