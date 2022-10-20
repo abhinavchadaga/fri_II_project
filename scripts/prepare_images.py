@@ -6,7 +6,7 @@ import json
 from detectron2.structures import BoxMode
 
 import numpy as np
-from skimage.draw import ellipse
+from skimage.draw import ellipse, disk, rectangle, polygon
 from PIL import Image, ImageOps
 from termcolor import cprint
 
@@ -35,29 +35,28 @@ if __name__ == "__main__":
     for k in classes.keys():
         print(f"\t{k}")
 
-    image_id = 0
     for building in Path(path_to_data).iterdir():
         cprint(f"\nprocessing {building} images...\n", "white", attrs=['bold'])
         # iterate through each building folder
-        path_to_annotations = list(Path(building).glob("*annotations.json"))[0].as_posix()
-        annotations = json.load(open(path_to_annotations))
+        path_to_annotations = list(building.glob("*annotations.json"))[0]
+        with path_to_annotations.open("r") as a:
+            annotations = json.load(a)
+            
         for k, a in annotations.items():
             # iterate through each annotated image
-            file_name = Path(a['filename'])
-            full_path = (building / file_name).as_posix()
+            fname = Path(a['filename'])
+            fpath = building / fname
 
-            with Image.open(full_path) as img:
+            with Image.open(fpath.as_posix()) as img:
                 img = ImageOps.exif_transpose(img)
                 width, height = img.size
 
-            cprint(f"loaded {full_path}", "green")
-
             # data required for one image
             data = {
-                "file_name": full_path,
+                "file_name": fpath.as_posix(),
                 "width": width,
                 "height": height,
-                "image_id": image_id,
+                "image_id": fname,
                 "annotations": []
             }
 
@@ -75,8 +74,16 @@ if __name__ == "__main__":
                                      r_radius=s_attr['ry'],
                                      c_radius=s_attr['rx'],
                                      rotation=s_attr['theta'])
-                    bbox = [np.min(cc), np.min(rr), np.max(cc), np.max(rr)]
-                    segmentation = [[item for sublist in zip(cc, rr) for item in sublist]]
+                elif shape_type == "circle":
+                    rr, cc = disk(center=(s_attr['cy'], s_attr['cx']), radius=s_attr['r'])
+                elif shape_type == "rect":
+                    start = (s_attr['y'], s_attr['x'])
+                    extent = (s_attr['height'], s_attr['width'])
+                    rr, cc = rectangle(start=start, extent=extent)
+                elif shape_type == "polygon":
+                    r = s_attr["all_points_y"]
+                    c = s_attr["all_points_y"]
+                    rr, cc = polygon(r=r, c=c)
                 elif shape_type == "polyline":
                     x = s_attr['all_points_x']
                     y = s_attr['all_points_y']
@@ -85,9 +92,12 @@ if __name__ == "__main__":
                         segmentation[0].extend([x[i], y[i]])
                     bbox = [np.min(x), np.min(y), np.max(x), np.max(y)]
                 else:
-                    bbox = None
-                    segmentation = None
+                    raise Exception(f"unsupported shape type: {shape_type}")
 
+                if any([shape_type == "ellipse", shape_type == "circle", shape_type == "rect"]):
+                    bbox = [np.min(cc), np.min(rr), np.max(cc), np.max(rr)]
+                    segmentation = [[item for sublist in zip(cc, rr) for item in sublist]]
+                
                 annotation = {
                     "bbox": bbox,
                     "bbox_mode": BoxMode.XYXY_ABS,
@@ -98,11 +108,11 @@ if __name__ == "__main__":
 
             pkl_save_path = Path(save_path) / building.name
             pkl_save_path.mkdir(parents=True, exist_ok=True)
-            pkl_save_path = pkl_save_path / Path(f"{file_name.as_posix().split('.')[0]}.pkl")
+            pkl_save_path = pkl_save_path / (fname.stem + '.pkl')
             with pkl_save_path.open("wb") as f:
                 pickle.dump(data, f)
 
-            cprint(f"saved {full_path} to {pkl_save_path}!!", "green", attrs=['bold'])
-            image_id += 1
+
+        cprint(f"Finished {building} images!!\n", "green", attrs=['bold'])
 
 cprint("\nDONE!!", "green", attrs=['bold'])

@@ -4,5 +4,6 @@
 *.JPG
 *.pkl
 *.jpeg
+*.jpg
 detectron2
 
