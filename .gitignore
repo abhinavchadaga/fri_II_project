@@ -6,4 +6,4 @@
 *.jpeg
 *.jpg
 detectron2
-
+output/
