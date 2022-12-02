@@ -1,3 +1,4 @@
+.DS_Store
 .vscode
 .venv
 .ipynb_checkpoints
@@ -7,3 +8,4 @@
 *.jpg
 detectron2
 output/
+/old
