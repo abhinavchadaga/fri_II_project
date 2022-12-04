@@ -1,5 +1,4 @@
 .DS_Store
-.vscode
 .venv
 .ipynb_checkpoints
 *.JPG
@@ -8,6 +7,6 @@
 *.jpg
 detectron2
 output/
-/old
 */__pycache__
 *.pth
+data/labels

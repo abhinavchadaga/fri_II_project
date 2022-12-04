@@ -1,0 +1,24 @@
+{
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${env:PYTHONPATH}:${workspaceFolder}/src",
+    },
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "--init-hook",
+        "import sys; sys.path.append('${workspaceFolder}/src')",
+        "--disable=invalid-name",
+        "--disable=missing-function-docstring",
+        "--disable=missing-module-docstring",
+        "--disable=too-many-locals",
+        "--disable=unspecified-encoding",
+        "--generated-members=cv2.*"
+    ],
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "100"
+    ]
+}
