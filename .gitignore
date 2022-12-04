@@ -9,3 +9,5 @@
 detectron2
 output/
 /old
+*/__pycache__
+*.pth
