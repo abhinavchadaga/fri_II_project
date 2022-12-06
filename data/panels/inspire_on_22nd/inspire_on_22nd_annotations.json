@@ -322,7 +322,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_open"
+                    "pair": "door open"
                 }
             },
             {
@@ -336,7 +336,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_close"
+                    "pair": "door close"
                 }
             },
             {
@@ -1287,7 +1287,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_open"
+                    "pair": "door open"
                 }
             },
             {
@@ -1441,7 +1441,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_close"
+                    "pair": "door close"
                 }
             },
             {
@@ -3229,7 +3229,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_open"
+                    "pair": "door open"
                 }
             },
             {
@@ -3302,7 +3302,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_close"
+                    "pair": "door close"
                 }
             },
             {
@@ -4359,7 +4359,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_open"
+                    "pair": "door open"
                 }
             },
             {
@@ -4470,7 +4470,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_close"
+                    "pair": "door close"
                 }
             },
             {
@@ -6698,7 +6698,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "open_door"
+                    "pair": "open door"
                 }
             },
             {
@@ -6773,7 +6773,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_close"
+                    "pair": "close door"
                 }
             },
             {
@@ -7963,7 +7963,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "open_door"
+                    "pair": "open door"
                 }
             },
             {
@@ -8098,7 +8098,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_close"
+                    "pair": "close door"
                 }
             },
             {
@@ -9497,7 +9497,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "-1"
+                    "pair": "-2"
                 }
             },
             {
@@ -10023,7 +10023,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "open_door"
+                    "pair": "open door"
                 }
             },
             {
@@ -10108,7 +10108,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_close"
+                    "pair": "close door"
                 }
             },
             {
@@ -11238,7 +11238,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "open_door"
+                    "pair": "open door"
                 }
             },
             {
@@ -11365,7 +11365,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_close"
+                    "pair": "close door"
                 }
             },
             {
@@ -11676,7 +11676,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "14"
+                    "pair": "17"
                 }
             },
             {
@@ -13264,7 +13264,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_open"
+                    "pair": "door open"
                 }
             },
             {
@@ -13325,7 +13325,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_close"
+                    "pair": "door close"
                 }
             },
             {
@@ -14009,7 +14009,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_open"
+                    "pair": "door open"
                 }
             },
             {
@@ -14130,7 +14130,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_close"
+                    "pair": "door close"
                 }
             },
             {
@@ -15433,7 +15433,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_open"
+                    "pair": "door open"
                 }
             },
             {
@@ -15550,7 +15550,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "door_close"
+                    "pair": "door close"
                 }
             },
             {
@@ -16904,7 +16904,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_open"
+                    "pair": "door open"
                 }
             },
             {
@@ -17024,7 +17024,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "door_close"
+                    "pair": "door close"
                 }
             },
             {

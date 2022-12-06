@@ -6,7 +6,10 @@
 *.jpeg
 *.jpg
 detectron2
+parseq
 output/
 */__pycache__
 *.pth
 data/labels
+lightning_logs
+trained_weights

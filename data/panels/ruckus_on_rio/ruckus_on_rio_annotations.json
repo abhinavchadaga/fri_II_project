@@ -341,7 +341,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bel"
+                    "pair": "bell"
                 }
             },
             {
@@ -1845,7 +1845,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "G"
+                    "pair": "G1"
                 }
             },
             {
@@ -1878,7 +1878,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "G"
+                    "pair": "G2"
                 }
             },
             {
@@ -2335,7 +2335,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "G"
+                    "pair": "G1"
                 }
             },
             {
@@ -2955,7 +2955,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "G"
+                    "pair": "G2"
                 }
             },
             {
@@ -3429,7 +3429,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "G"
+                    "pair": "G2"
                 }
             },
             {
@@ -5359,7 +5359,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "G"
+                    "pair": "G1"
                 }
             },
             {
@@ -5895,7 +5895,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "G"
+                    "pair": "G2"
                 }
             },
             {

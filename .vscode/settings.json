@@ -4,9 +4,10 @@
     },
     "python.envFile": "${workspaceFolder}/.env",
     "python.analysis.extraPaths": [
-        "${workspaceFolder}/src"
+        "${workspaceFolder}/src",
+        "./detectron2"
     ],
-    "python.linting.enabled": true,
+    "python.linting.enabled": false,
     "python.linting.pylintArgs": [
         "--init-hook",
         "import sys; sys.path.append('${workspaceFolder}/src')",

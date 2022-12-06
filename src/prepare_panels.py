@@ -93,6 +93,7 @@ def process_imgs(path_to_data: str, save_path: str) -> None:
                     "bbox_mode": BoxMode.XYXY_ABS,
                     "segmentation": [poly],
                     "category_id": category_id,
+                    "pair": r["region_attributes"].get("pair"),
                 }
 
                 objs.append(obj)

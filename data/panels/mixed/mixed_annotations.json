@@ -3818,7 +3818,7 @@
                 },
                 "region_attributes": {
                     "category_id": "not button",
-                    "pair": ""
+                    "pair": "stop"
                 }
             },
             {
@@ -5938,14 +5938,14 @@
             {
                 "shape_attributes": {
                     "name": "ellipse",
-                    "cx": 425,
-                    "cy": 349,
+                    "cx": 426,
+                    "cy": 348,
                     "rx": 15,
                     "ry": 13.017,
                     "theta": 3.09
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "call"
                 }
             },
@@ -6419,7 +6419,7 @@
                     "r": 24
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "bell"
                 }
             },
@@ -14796,7 +14796,7 @@
                     "r": 25.429
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "door_close"
                 }
             },
@@ -36729,7 +36729,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "front_door_close"
+                    "pair": "front_door_open"
                 }
             },
             {
@@ -38884,7 +38884,7 @@
                     "theta": -0.122
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "51"
                 }
             },
@@ -38898,7 +38898,7 @@
                     "theta": -0.046
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "52"
                 }
             },
@@ -39071,7 +39071,7 @@
                     "theta": 0.091
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "41"
                 }
             },
@@ -39085,7 +39085,7 @@
                     "theta": -3.036
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "42"
                 }
             },
@@ -39099,7 +39099,7 @@
                     "theta": -3.047
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "31"
                 }
             },
@@ -39113,7 +39113,7 @@
                     "theta": 0.489
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "32"
                 }
             },
@@ -39230,7 +39230,7 @@
                     "theta": -2.591
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "21"
                 }
             },
@@ -39244,7 +39244,7 @@
                     "theta": -2.82
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "22"
                 }
             },
@@ -39258,7 +39258,7 @@
                     "theta": -2.789
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "11"
                 }
             },
@@ -39272,7 +39272,7 @@
                     "theta": -2.507
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "12"
                 }
             },
@@ -39286,7 +39286,7 @@
                     "theta": 0.703
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "2R"
                 }
             },
@@ -39300,7 +39300,7 @@
                     "theta": 0.841
                 },
                 "region_attributes": {
-                    "category_id": "label",
+                    "category_id": "button",
                     "pair": "GR"
                 }
             },
@@ -40268,7 +40268,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "Bell"
+                    "pair": "bell"
                 }
             },
             {
@@ -40347,7 +40347,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "alarm"
+                    "pair": "bell"
                 }
             },
             {

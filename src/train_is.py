@@ -14,9 +14,10 @@ from detectron2.engine import DefaultTrainer
 from detectron2.config import get_cfg, CfgNode
 from detectron2.data import MetadataCatalog, DatasetCatalog
 
+
 def configure_dataset(path_to_dataset: str) -> List[dict]:
     def register_dataset():
-        """ register elevator panels dataset by
+        """register elevator panels dataset by
             loading all pkl files into memory
 
         Args:
@@ -53,11 +54,14 @@ def configure_dataset(path_to_dataset: str) -> List[dict]:
 
 
 def configure_model(cfg: CfgNode, arch: str) -> None:
-    CONFIG = "Misc/cascade_mask_rcnn_R_50_FPN_3x.yaml" if arch == "cascade-rcnn" else \
-             "COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"
+    CONFIG = (
+        "Misc/cascade_mask_rcnn_R_50_FPN_3x.yaml"
+        if arch == "cascade-rcnn"
+        else "COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"
+    )
 
     cfg.merge_from_file(model_zoo.get_config_file(CONFIG))
-    cfg.DATASETS.TRAIN = ("elevators", )
+    cfg.DATASETS.TRAIN = ("elevators",)
     cfg.DATASETS.TEST = ()
     cfg.DATALOADER.NUM_WORKERS = 8
     cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url(CONFIG)
@@ -86,11 +90,12 @@ def train_model(path_to_dataset: str, arch: str):
 def main():
     setup_logger()
     parser = ArgumentParser(description="train instance segmentation model")
-    parser.add_argument("--path_to_dataset",
-                        "-p",
-                        type=str,
-                        default="/home/abhinavchadaga/cs/fri_II/final_project/datasets/"\
-                                "elevator_panels")
+    parser.add_argument(
+        "--path_to_dataset",
+        "-p",
+        type=str,
+        default="/home/abhinavchadaga/cs/fri_II/final_project/datasets/" "panels",
+    )
     parser.add_argument("--arch", "-a", choices=["cascade-rcnn", "mrcnn"], default="cascade-rcnn")
     args = parser.parse_args()
     train_model(path_to_dataset=args.path_to_dataset, arch=args.arch)
