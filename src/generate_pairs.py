@@ -76,8 +76,8 @@ def generate_pairs(path_to_data: str, save_dir: str) -> None:
                     for btn in top_4_btn_centers:
                         input_vec.extend(btn)
                     if len(input_vec) != 8:
-                        # check.append(f"{img_dict['file_name'].split('/')[-1]}, {pair}")
-                        # check.append(f"\t{top_4_pairs}")
+                        check.append(f"{img_dict['file_name'].split('/')[-1]}, {pair}")
+                        check.append(f"\t{top_4_pairs}")
                         continue
                     input_vec.extend(label)
                     input_vec = np.array(input_vec)
@@ -89,8 +89,8 @@ def generate_pairs(path_to_data: str, save_dir: str) -> None:
                             gt = i
 
                     if gt is None or gt >= 4:
-                        # check.append(f"{img_dict['file_name'].split('/')[-1]}, {pair}")
-                        # check.append(f"\t{top_4_pairs}")
+                        check.append(f"{img_dict['file_name'].split('/')[-1]}, {pair}")
+                        check.append(f"\t{top_4_pairs}")
                         continue
 
                     gt = np.array(gt)
@@ -129,9 +129,13 @@ def main():
     generate_pairs(path_to_data=path_to_data, save_dir=save_path)
     cprint("success!!", "green", attrs=["bold"])
 
-    # cprint("check these: ", "red")
-    # for c in check:
-    #     print(c)
+    cprint("check these: ", "red")
+    for i in range(0, len(check), 2):
+        # mixed errors can be skipped
+        c = check[i]
+        if "mixed" not in c and not ("signature" in c and "call" in c):
+            print(c)
+            print(check[i + 1])
 
 
 if __name__ == "__main__":

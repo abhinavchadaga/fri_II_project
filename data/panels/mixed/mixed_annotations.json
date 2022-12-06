@@ -923,7 +923,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -937,7 +937,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -1058,7 +1058,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -1131,7 +1131,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -1238,7 +1238,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -1280,7 +1280,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -1557,7 +1557,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -1670,7 +1670,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             }
         ],
@@ -3170,7 +3170,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -3563,7 +3563,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -4254,7 +4254,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -4293,7 +4293,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -4821,7 +4821,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -5222,7 +5222,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -5816,7 +5816,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -5861,7 +5861,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -5918,7 +5918,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -5946,7 +5946,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -6334,7 +6334,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -6420,7 +6420,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -6433,7 +6433,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -6445,7 +6445,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -6737,7 +6737,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -6836,7 +6836,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -7139,7 +7139,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -7398,7 +7398,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             }
         ],
@@ -7503,7 +7503,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -7559,7 +7559,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -8206,7 +8206,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -8803,7 +8803,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -9112,7 +9112,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -9342,7 +9342,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -9780,7 +9780,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -10448,7 +10448,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -10988,7 +10988,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -12187,7 +12187,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -12502,7 +12502,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -12516,7 +12516,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -12652,7 +12652,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -12693,7 +12693,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             }
         ],
@@ -13189,7 +13189,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -13388,7 +13388,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -13535,7 +13535,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -13547,7 +13547,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -13631,7 +13631,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -13694,7 +13694,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -14845,7 +14845,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -14857,7 +14857,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -15122,7 +15122,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -15389,7 +15389,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -15622,7 +15622,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -15692,7 +15692,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -15926,7 +15926,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -15963,7 +15963,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -16578,7 +16578,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -16714,7 +16714,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -25821,7 +25821,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -25835,7 +25835,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -26485,7 +26485,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -26516,7 +26516,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -26795,7 +26795,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -26929,7 +26929,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -29958,7 +29958,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -30254,7 +30254,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -32936,7 +32936,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -32948,7 +32948,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "call"
+                    "pair": "help"
                 }
             },
             {
@@ -36743,7 +36743,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -37623,7 +37623,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -40268,7 +40268,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -40347,7 +40347,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {

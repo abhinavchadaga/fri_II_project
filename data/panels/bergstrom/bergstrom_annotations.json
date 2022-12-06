@@ -69,7 +69,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "1"
+                    "pair": "*1"
                 }
             },
             {
@@ -106,7 +106,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "1"
+                    "pair": "*1"
                 }
             },
             {
@@ -178,7 +178,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -315,7 +315,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -445,7 +445,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "1"
+                    "pair": "*1"
                 }
             },
             {
@@ -473,7 +473,7 @@
                 },
                 "region_attributes": {
                     "category_id": "button",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
@@ -577,7 +577,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "1"
+                    "pair": "*1"
                 }
             },
             {
@@ -649,7 +649,7 @@
                 },
                 "region_attributes": {
                     "category_id": "label",
-                    "pair": "bell"
+                    "pair": "alarm"
                 }
             },
             {
