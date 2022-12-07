@@ -5,6 +5,8 @@ import math
 import copy
 import numpy as np
 
+testList = ["etc", "the_nine", "painter", "cpe"]
+
 def lastChar(s, c):
     return -(s[::-1].index(c) + 1)
 
@@ -126,7 +128,7 @@ class MaskFill:
     def __init__(self, fillColor = (255, 255, 255)):
         self.fillColor = fillColor
 
-    def __call__(self, val, path, imgName, image):
+    def __call__(self, val, path, imgName, image, test):
         jsonArr = []
 
         blockRegions = []
@@ -169,16 +171,19 @@ class MaskFill:
                 elif blockRegions[i][0] == "polyline" or blockRegions[i][0] == "polygon":
                     self.polyMask(blockRegions[i][1])
                     
-            cv2.imwrite(path + value["filename"], self.maskedImage)
+            if test:
+                cv2.imwrite("./dataset/elevatorFeatures/val/" + value["filename"], self.maskedImage)
+            else:
+                cv2.imwrite("./dataset/elevatorFeatures/train/" + value["filename"], self.maskedImage)
             
-            value["regions"] = []
+            value["regions"] = {}
+            value["base64_img_data"] = ""
+            value["fileref"] = ""
 
             jsonArr.append(value)
 
         except Exception as e:
             print(e)
-
-
 
         for fig, det in enumerate(blockRegions):
             print(str(fig + 1) + "miss" + key)
@@ -204,9 +209,14 @@ class MaskFill:
                         elif blockRegions[i][0] == "polyline" or blockRegions[i][0] == "polygon":
                             self.polyMask(blockRegions[i][1])
                         
-                cv2.imwrite(path + value["filename"], self.maskedImage)
+                if test:
+                    cv2.imwrite("./dataset/elevatorFeatures/val/" + value["filename"], self.maskedImage)
+                else:
+                    cv2.imwrite("./dataset/elevatorFeatures/train/" + value["filename"], self.maskedImage)
                 
-                value["regions"] = [newShape]
+                value["regions"] = {"0": newShape}
+                value["base64_img_data"] = ""
+                value["fileref"] = ""
                 # print(value)
                 
                 # cv2.imshow("Temp", self.maskedImage)
@@ -220,43 +230,61 @@ class MaskFill:
 
         return jsonArr
 
+# ./dataset/elevatorFeatures/val
+# ./dataset/elevatorFeatures/train
+
 if __name__ == "__main__":
     buildingDirectories = glob.glob("./*/")
     
+    trainData = {}
+    testData = {}
+
     for path in buildingDirectories:
-        pictures = glob.glob(path+"*.jpg")
-        jsonFile = glob.glob(path+"*.json")
-        filler = MaskFill((255, 255, 255))
-        if len(jsonFile) > 0:
-            with open(jsonFile[0], "r") as read_file:
-                data = copy.deepcopy(json.load(read_file))
+        try:
+            pictures = glob.glob(path+"*.jpg")
+            jsonFile = glob.glob(path+"*.json")
+            filler = MaskFill((255, 255, 255))
+            if len(jsonFile) > 0:
+                with open(jsonFile[0], "r") as read_file:
+                    data = copy.deepcopy(json.load(read_file))
 
-                print(data)
+                    print(data)
 
+                    picJSON = copy.deepcopy(data["_via_img_metadata"])
+                    data["_via_img_metadata"].clear()
+                    data["_via_image_id_list"] = []
 
-                picJSON = copy.deepcopy(data["_via_img_metadata"])
-                data["_via_img_metadata"].clear()
-                data["_via_image_id_list"] = []
+                    for pic in pictures:
+                        image = cv2.imread(pic)
+                        
+                        tempPic = pic[lastChar(pic, "\\") + 1:]
+                        for key, value in picJSON.items():
+                            if tempPic in key:
+                                print(key)
+                                for i, d in enumerate(filler(value, path, tempPic, image, any(name in path for name in testList))):
+                                    data["_via_img_metadata"][str(i) + "miss" + key] = d
+                                    
+                                    if any(name in path for name in testList):
+                                        testData[str(i) + "miss" + key] = d
+                                    else:
+                                        trainData[str(i) + "miss" + key] = d
 
-                for pic in pictures:
-                    image = cv2.imread(pic)
-                    
-                    tempPic = pic[lastChar(pic, "\\") + 1:]
-                    for key, value in picJSON.items():
-                        if tempPic in key:
-                            print(key)
-                            for i, d in enumerate(filler(value, path, tempPic, image)):
-                                data["_via_img_metadata"][str(i) + "miss" + key] = d
-                                if data["_via_image_id_list"].count(str(i) + "miss" + key) == 0:
-                                    data["_via_image_id_list"].append(str(i) + "miss" + key)
-                            break
+                                    # if data["_via_image_id_list"].count(str(i) + "miss" + key) == 0:
+                                    #     data["_via_image_id_list"].append(str(i) + "miss" + key)
+                                break
 
+                read_file.close()
 
+            with open("./dataset/elevatorFeatures/val/via_region_data.json", 'w') as newFile:
+                json.dump(testData, newFile)
 
+            with open("./dataset/elevatorFeatures/train/via_region_data.json", 'w') as newFile:
+                json.dump(trainData, newFile)
+        except Exception as e:
+            print(e)
 
+    with open("./dataset/elevatorFeatures/val/via_region_data.json", 'w') as newFile:
+        json.dump(testData, newFile)
 
-
-                with open(jsonFile[0][:-5] + "Missing.json", 'w') as newFile:
-                    json.dump(data, newFile)
-
-            read_file.close()
+    with open("./dataset/elevatorFeatures/train/via_region_data.json", 'w') as newFile:
+        json.dump(trainData, newFile)
