@@ -110,7 +110,7 @@ if __name__ == "__main__":
             pred = logits.softmax(-1)
             prediction, _ = parseq.tokenizer.decode(pred)
             label_indices[prediction[0]] = i
-            labeled_img = lv.draw_text(prediction[0], (bbox[0], bbox[1]), color="red")
+            labeled_img = lv.draw_text(prediction[0], (bbox[0], bbox[1]), color="g")
         else:
             bbox = (
                 instances.pred_boxes[i]
@@ -124,7 +124,7 @@ if __name__ == "__main__":
             button_centers.append(center)
 
     labeled_img = labeled_img.get_image()
-    # cv2.imwrite("labeled_val_img.jpg", labeled_img)
+    cv2.imwrite("labeled_val_img.jpg", labeled_img)
 
     index = label_indices.get(str(tgt_floor))
     if index is None:

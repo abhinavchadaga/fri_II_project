@@ -34,9 +34,9 @@ class BTNLabelAssoc(pl.LightningModule):
     def __init__(self, lr=1e-4):
         super().__init__()
         self.model = nn.Sequential(
-            nn.Linear(10, 32),
+            nn.Linear(10, 64),
             nn.ReLU(),
-            nn.Linear(32, 16),
+            nn.Linear(64, 16),
             nn.ReLU(),
             nn.Linear(16, 4),
             nn.LogSoftmax(dim=1),
