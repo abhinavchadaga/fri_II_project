@@ -58,10 +58,10 @@ def generate_pairs(path_to_data: str, save_dir: str) -> None:
                     center = (bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2
                     if a["category_id"] in (0, 2):
                         btn_centers.append(center)
-                        btn_pairs.append(a["pair"])
+                        btn_pairs.append(a.get("pair"))
                     elif a["category_id"] == 1:
                         label_centers.append(center)
-                        label_pairs.append(a["pair"])
+                        label_pairs.append(a.get("pair"))
 
                 for label, pair in zip(label_centers, label_pairs):
                     if pair == "" or pair is None:

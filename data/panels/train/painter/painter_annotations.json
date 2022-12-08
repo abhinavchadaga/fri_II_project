@@ -1,0 +1,1122 @@
+{
+    "IMG_8009.JPG2546889": {
+        "filename": "IMG_8009.JPG",
+        "size": 2546889,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1113,
+                    "cy": 1577,
+                    "rx": 91,
+                    "ry": 87,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1356,
+                    "cy": 1584,
+                    "rx": 82,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1118,
+                    "cy": 1801,
+                    "rx": 86,
+                    "ry": 86,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1358,
+                    "cy": 1805,
+                    "rx": 82,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1601,
+                    "cy": 1805,
+                    "rx": 86,
+                    "ry": 84,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1839,
+                    "cy": 1809,
+                    "rx": 80,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1120,
+                    "cy": 2014,
+                    "rx": 84,
+                    "ry": 84,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1354,
+                    "cy": 2016,
+                    "rx": 82,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1596,
+                    "cy": 2018,
+                    "rx": 84,
+                    "ry": 84,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1832,
+                    "cy": 2024,
+                    "rx": 80,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1122,
+                    "cy": 2216,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1354,
+                    "cy": 2221,
+                    "rx": 80,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1594,
+                    "cy": 2220,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1824,
+                    "cy": 2227,
+                    "rx": 80,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1124,
+                    "cy": 2417,
+                    "rx": 82,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1350,
+                    "cy": 2421,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1126,
+                    "cy": 2609,
+                    "rx": 82,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "pair": "help",
+                    "category_id": "label"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1350,
+                    "cy": 2611,
+                    "rx": 78,
+                    "ry": 72,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "IMG_8010.JPG2670704": {
+        "filename": "IMG_8010.JPG",
+        "size": 2670704,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1506,
+                    "cy": 894,
+                    "rx": 91,
+                    "ry": 99,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": ""
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1845,
+                    "cy": 890,
+                    "rx": 89,
+                    "ry": 91,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": ""
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1160,
+                    "cy": 2440,
+                    "rx": 84,
+                    "ry": 84,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1390,
+                    "cy": 2442,
+                    "rx": 80,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1178,
+                    "cy": 3447,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1406,
+                    "cy": 3451,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1640,
+                    "cy": 3057,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1865,
+                    "cy": 3054,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1170,
+                    "cy": 2853,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1176,
+                    "cy": 3057,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1178,
+                    "cy": 3253,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1166,
+                    "cy": 2651,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1392,
+                    "cy": 2651,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1640,
+                    "cy": 2651,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1873,
+                    "cy": 2649,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1640,
+                    "cy": 2855,
+                    "rx": 87,
+                    "ry": 82,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1869,
+                    "cy": 2856,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1398,
+                    "cy": 2853,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1400,
+                    "cy": 3057,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1404,
+                    "cy": 3255,
+                    "rx": 78,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "IMG_8011.JPG2503296": {
+        "filename": "IMG_8011.JPG",
+        "size": 2503296,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2062,
+                    "cy": 886,
+                    "rx": 95,
+                    "ry": 97,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": ""
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2411,
+                    "cy": 875,
+                    "rx": 97,
+                    "ry": 93,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": ""
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1681,
+                    "cy": 2444,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1687,
+                    "cy": 2646,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1689,
+                    "cy": 2855,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1691,
+                    "cy": 3055,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1693,
+                    "cy": 3255,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1693,
+                    "cy": 3449,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2167,
+                    "cy": 2660,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2165,
+                    "cy": 2865,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2163,
+                    "cy": 3070,
+                    "rx": 86,
+                    "ry": 80,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2400,
+                    "cy": 3076,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1917,
+                    "cy": 2444,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1919,
+                    "cy": 2649,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1921,
+                    "cy": 2860,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1917,
+                    "cy": 3062,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1917,
+                    "cy": 3264,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1917,
+                    "cy": 3462,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2408,
+                    "cy": 2665,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2400,
+                    "cy": 2872,
+                    "rx": 80,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "IMG_8012.JPG2734041": {
+        "filename": "IMG_8012.JPG",
+        "size": 2734041,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 623,
+                    "cy": 121,
+                    "rx": 102,
+                    "ry": 105,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": ""
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 977,
+                    "cy": 145,
+                    "rx": 93,
+                    "ry": 97,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": ""
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 293,
+                    "cy": 2854,
+                    "rx": 85.618,
+                    "ry": 76.075,
+                    "theta": 0.028
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 257,
+                    "cy": 1793,
+                    "rx": 95,
+                    "ry": 88,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 271,
+                    "cy": 2012,
+                    "rx": 95,
+                    "ry": 88,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 778,
+                    "cy": 2448,
+                    "rx": 83.343,
+                    "ry": 80.83,
+                    "theta": 0.057
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 281,
+                    "cy": 2445,
+                    "rx": 95,
+                    "ry": 88,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 288,
+                    "cy": 2652,
+                    "rx": 85.618,
+                    "ry": 76.075,
+                    "theta": 0.028
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 530,
+                    "cy": 2855,
+                    "rx": 87.962,
+                    "ry": 78.597,
+                    "theta": 0.061
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 514,
+                    "cy": 1802,
+                    "rx": 88,
+                    "ry": 88,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 519,
+                    "cy": 2018,
+                    "rx": 88,
+                    "ry": 88,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 521,
+                    "cy": 2237,
+                    "rx": 87.962,
+                    "ry": 85.585,
+                    "theta": -3.142
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 526,
+                    "cy": 2449,
+                    "rx": 87.962,
+                    "ry": 85.585,
+                    "theta": -3.142
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 528,
+                    "cy": 2653,
+                    "rx": 87.962,
+                    "ry": 78.597,
+                    "theta": 0.061
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1013,
+                    "cy": 2448,
+                    "rx": 86,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1020,
+                    "cy": 2035,
+                    "rx": 86,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1018,
+                    "cy": 2244,
+                    "rx": 86,
+                    "ry": 78,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 276,
+                    "cy": 2231,
+                    "rx": 95,
+                    "ry": 88,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 778,
+                    "cy": 2027,
+                    "rx": 95,
+                    "ry": 88,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 778,
+                    "cy": 2236,
+                    "rx": 95,
+                    "ry": 88,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            }
+        ],
+        "file_attributes": {}
+    }
+}

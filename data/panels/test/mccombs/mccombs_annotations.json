@@ -1,0 +1,4328 @@
+{
+    "JPEG image 2.jpeg2608826": {
+        "filename": "JPEG image 2.jpeg",
+        "size": 2608826,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1931,
+                        1934,
+                        2100,
+                        2096
+                    ],
+                    "all_points_y": [
+                        290,
+                        472,
+                        465,
+                        278
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1932,
+                        2093,
+                        2091,
+                        1935
+                    ],
+                    "all_points_y": [
+                        577,
+                        569,
+                        737,
+                        746
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2418,
+                        2578,
+                        2568,
+                        2414
+                    ],
+                    "all_points_y": [
+                        543,
+                        531,
+                        703,
+                        715
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1936,
+                        1937,
+                        2091,
+                        2090
+                    ],
+                    "all_points_y": [
+                        840,
+                        1005,
+                        993,
+                        833
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2406,
+                        2399,
+                        2549,
+                        2562
+                    ],
+                    "all_points_y": [
+                        813,
+                        975,
+                        963,
+                        798
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1937,
+                        1937,
+                        2086,
+                        2085
+                    ],
+                    "all_points_y": [
+                        1098,
+                        1247,
+                        1235,
+                        1084
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2393,
+                        2386,
+                        2538,
+                        2544
+                    ],
+                    "all_points_y": [
+                        1064,
+                        1217,
+                        1206,
+                        1051
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1938,
+                        1939,
+                        2084,
+                        2083
+                    ],
+                    "all_points_y": [
+                        1334,
+                        1476,
+                        1468,
+                        1319
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1938,
+                        1939,
+                        2078,
+                        2079
+                    ],
+                    "all_points_y": [
+                        1558,
+                        1690,
+                        1683,
+                        1546
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2254,
+                    "cy": 361,
+                    "rx": 84.719,
+                    "ry": 98.404,
+                    "theta": -2.683
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2245,
+                    "cy": 642,
+                    "rx": 82.751,
+                    "ry": 91.779,
+                    "theta": 0.521
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2730,
+                    "cy": 606,
+                    "rx": 82.751,
+                    "ry": 91.779,
+                    "theta": 0.521
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2239,
+                    "cy": 903,
+                    "rx": 78.291,
+                    "ry": 82.788,
+                    "theta": 0.331
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2708,
+                    "cy": 873,
+                    "rx": 79.108,
+                    "ry": 89.426,
+                    "theta": 0.53
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2231,
+                    "cy": 1151,
+                    "rx": 77.499,
+                    "ry": 85.896,
+                    "theta": 0.525
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2684,
+                    "cy": 1120,
+                    "rx": 77.659,
+                    "ry": 84.367,
+                    "theta": 0.874
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2668,
+                    "cy": 1357,
+                    "rx": 80.916,
+                    "ry": 74.129,
+                    "theta": -0.857
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2223,
+                    "cy": 1385,
+                    "rx": 78.836,
+                    "ry": 74.139,
+                    "theta": -0.628
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2216,
+                    "cy": 1606,
+                    "rx": 72.953,
+                    "ry": 74.054,
+                    "theta": -2.345
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1852,
+                    "cy": 1840,
+                    "rx": 47,
+                    "ry": 42,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2800,
+                    "cy": 1781,
+                    "rx": 45.91,
+                    "ry": 44.854,
+                    "theta": -2.927
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1883,
+                    "cy": 3308,
+                    "rx": 36,
+                    "ry": 34,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2652,
+                    "cy": 3285,
+                    "rx": 38,
+                    "ry": 33,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2383,
+                        2376,
+                        2522,
+                        2527
+                    ],
+                    "all_points_y": [
+                        1304,
+                        1446,
+                        1436,
+                        1292
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image 3.jpeg2693387": {
+        "filename": "JPEG image 3.jpeg",
+        "size": 2693387,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1356,
+                        1367,
+                        1528,
+                        1523
+                    ],
+                    "all_points_y": [
+                        134,
+                        329,
+                        320,
+                        126
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1371,
+                        1381,
+                        1537,
+                        1532
+                    ],
+                    "all_points_y": [
+                        432,
+                        611,
+                        604,
+                        426
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1858,
+                        1858,
+                        2014,
+                        2017
+                    ],
+                    "all_points_y": [
+                        414,
+                        590,
+                        581,
+                        404
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1386,
+                        1396,
+                        1552,
+                        1541
+                    ],
+                    "all_points_y": [
+                        707,
+                        877,
+                        870,
+                        700
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1857,
+                        1858,
+                        2010,
+                        2009
+                    ],
+                    "all_points_y": [
+                        688,
+                        854,
+                        846,
+                        680
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1401,
+                        1411,
+                        1557,
+                        1551
+                    ],
+                    "all_points_y": [
+                        968,
+                        1121,
+                        1118,
+                        959
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1856,
+                        1856,
+                        2003,
+                        2004
+                    ],
+                    "all_points_y": [
+                        945,
+                        1101,
+                        1093,
+                        938
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1412,
+                        1425,
+                        1567,
+                        1559
+                    ],
+                    "all_points_y": [
+                        1211,
+                        1358,
+                        1353,
+                        1203
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1854,
+                        1853,
+                        1994,
+                        1999
+                    ],
+                    "all_points_y": [
+                        1187,
+                        1336,
+                        1327,
+                        1178
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1425,
+                        1436,
+                        1572,
+                        1566
+                    ],
+                    "all_points_y": [
+                        1438,
+                        1580,
+                        1572,
+                        1434
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1684,
+                    "cy": 220,
+                    "rx": 89,
+                    "ry": 101,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1688,
+                    "cy": 510,
+                    "rx": 85.904,
+                    "ry": 94.132,
+                    "theta": 3.128
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2171,
+                    "cy": 486,
+                    "rx": 84.719,
+                    "ry": 94.404,
+                    "theta": -2.966
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1692,
+                    "cy": 781,
+                    "rx": 78.836,
+                    "ry": 87.104,
+                    "theta": 0.027
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2158,
+                    "cy": 755,
+                    "rx": 79.779,
+                    "ry": 89.426,
+                    "theta": 0.649
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1696,
+                    "cy": 1032,
+                    "rx": 76,
+                    "ry": 84,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2149,
+                    "cy": 1008,
+                    "rx": 78.334,
+                    "ry": 83.542,
+                    "theta": 0.571
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1699,
+                    "cy": 1270,
+                    "rx": 74,
+                    "ry": 75,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2134,
+                    "cy": 1248,
+                    "rx": 74.734,
+                    "ry": 78.836,
+                    "theta": 0.584
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1701,
+                    "cy": 1496,
+                    "rx": 71,
+                    "ry": 71,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1352,
+                    "cy": 1725,
+                    "rx": 47,
+                    "ry": 44,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2278,
+                    "cy": 1674,
+                    "rx": 47,
+                    "ry": 47,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1447,
+                    "cy": 3168,
+                    "rx": 35,
+                    "ry": 32,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2188,
+                    "cy": 3136,
+                    "rx": 39,
+                    "ry": 33,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image 4.jpeg2814480": {
+        "filename": "JPEG image 4.jpeg",
+        "size": 2814480,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        146,
+                        167,
+                        344,
+                        326
+                    ],
+                    "all_points_y": [
+                        221,
+                        415,
+                        424,
+                        232
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        178,
+                        199,
+                        374,
+                        352
+                    ],
+                    "all_points_y": [
+                        520,
+                        705,
+                        713,
+                        531
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        704,
+                        713,
+                        874,
+                        866
+                    ],
+                    "all_points_y": [
+                        552,
+                        734,
+                        738,
+                        561
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        211,
+                        232,
+                        397,
+                        381
+                    ],
+                    "all_points_y": [
+                        805,
+                        981,
+                        981,
+                        812
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        717,
+                        726,
+                        885,
+                        877
+                    ],
+                    "all_points_y": [
+                        830,
+                        995,
+                        998,
+                        834
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        240,
+                        261,
+                        420,
+                        404
+                    ],
+                    "all_points_y": [
+                        1071,
+                        1232,
+                        1231,
+                        1075
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        732,
+                        738,
+                        893,
+                        886
+                    ],
+                    "all_points_y": [
+                        1087,
+                        1240,
+                        1247,
+                        1091
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        272,
+                        287,
+                        445,
+                        426
+                    ],
+                    "all_points_y": [
+                        1319,
+                        1471,
+                        1471,
+                        1319
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        744,
+                        752,
+                        900,
+                        894
+                    ],
+                    "all_points_y": [
+                        1331,
+                        1479,
+                        1480,
+                        1334
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        297,
+                        312,
+                        464,
+                        447
+                    ],
+                    "all_points_y": [
+                        1552,
+                        1696,
+                        1694,
+                        1556
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1041,
+                    "cy": 1413,
+                    "rx": 75.306,
+                    "ry": 77.49,
+                    "theta": -0.732
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 504,
+                    "cy": 338,
+                    "rx": 87.184,
+                    "ry": 104.722,
+                    "theta": -0.554
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 526,
+                    "cy": 631,
+                    "rx": 87.072,
+                    "ry": 98.93,
+                    "theta": -0.469
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1030,
+                    "cy": 659,
+                    "rx": 84.735,
+                    "ry": 94.132,
+                    "theta": -0.445
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 549,
+                    "cy": 904,
+                    "rx": 85.799,
+                    "ry": 94.132,
+                    "theta": 2.405
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1033,
+                    "cy": 927,
+                    "rx": 83.269,
+                    "ry": 87.072,
+                    "theta": -0.745
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 567,
+                    "cy": 1161,
+                    "rx": 79.151,
+                    "ry": 87.072,
+                    "theta": 2.409
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1036,
+                    "cy": 1175,
+                    "rx": 78.836,
+                    "ry": 82.408,
+                    "theta": -0.755
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 584,
+                    "cy": 1398,
+                    "rx": 75.755,
+                    "ry": 82.366,
+                    "theta": 2.389
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 601,
+                    "cy": 1625,
+                    "rx": 77.659,
+                    "ry": 73.755,
+                    "theta": -2.549
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 228,
+                    "cy": 1843,
+                    "rx": 51,
+                    "ry": 45,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1214,
+                    "cy": 1844,
+                    "rx": 46,
+                    "ry": 44,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 413,
+                    "cy": 3346,
+                    "rx": 38,
+                    "ry": 37,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1193,
+                    "cy": 3306,
+                    "rx": 36,
+                    "ry": 38,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image 5.jpeg2729298": {
+        "filename": "JPEG image 5.jpeg",
+        "size": 2729298,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 589,
+                    "cy": 321,
+                    "rx": 89.007,
+                    "ry": 100.016,
+                    "theta": -0.422
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 895,
+                    "cy": 347,
+                    "rx": 81.944,
+                    "ry": 94.132,
+                    "theta": -0.367
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        174,
+                        186,
+                        342,
+                        332
+                    ],
+                    "all_points_y": [
+                        905,
+                        1061,
+                        1072,
+                        917
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        189,
+                        201,
+                        348,
+                        345
+                    ],
+                    "all_points_y": [
+                        1147,
+                        1305,
+                        1310,
+                        1159
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        204,
+                        212,
+                        360,
+                        354
+                    ],
+                    "all_points_y": [
+                        1385,
+                        1531,
+                        1537,
+                        1393
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        650,
+                        653,
+                        799,
+                        797
+                    ],
+                    "all_points_y": [
+                        1175,
+                        1325,
+                        1332,
+                        1183
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        655,
+                        658,
+                        804,
+                        799
+                    ],
+                    "all_points_y": [
+                        1408,
+                        1552,
+                        1557,
+                        1414
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        218,
+                        227,
+                        373,
+                        366
+                    ],
+                    "all_points_y": [
+                        1612,
+                        1752,
+                        1758,
+                        1620
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        660,
+                        665,
+                        807,
+                        802
+                    ],
+                    "all_points_y": [
+                        1632,
+                        1770,
+                        1773,
+                        1637
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        231,
+                        239,
+                        382,
+                        374
+                    ],
+                    "all_points_y": [
+                        1830,
+                        1964,
+                        1970,
+                        1837
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        667,
+                        670,
+                        810,
+                        807
+                    ],
+                    "all_points_y": [
+                        1846,
+                        1979,
+                        1978,
+                        1851
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        242,
+                        249,
+                        391,
+                        385
+                    ],
+                    "all_points_y": [
+                        2044,
+                        2173,
+                        2176,
+                        2046
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 502,
+                    "cy": 1473,
+                    "rx": 75.306,
+                    "ry": 77.49,
+                    "theta": -0.839
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 484,
+                    "cy": 1004,
+                    "rx": 75.718,
+                    "ry": 85.896,
+                    "theta": -0.774
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 492,
+                    "cy": 1241,
+                    "rx": 75.306,
+                    "ry": 83.219,
+                    "theta": -0.765
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 939,
+                    "cy": 1266,
+                    "rx": 75.306,
+                    "ry": 77.49,
+                    "theta": -0.839
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 939,
+                    "cy": 1493,
+                    "rx": 74,
+                    "ry": 72,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 509,
+                    "cy": 1694,
+                    "rx": 72.934,
+                    "ry": 72.953,
+                    "theta": -0.312
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 940,
+                    "cy": 1711,
+                    "rx": 74,
+                    "ry": 71,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 515,
+                    "cy": 1907,
+                    "rx": 74,
+                    "ry": 68,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 939,
+                    "cy": 1921,
+                    "rx": 71,
+                    "ry": 68,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 523,
+                    "cy": 2113,
+                    "rx": 74,
+                    "ry": 68,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 304,
+                    "cy": 299,
+                    "rx": 65.283,
+                    "ry": 55.783,
+                    "theta": -2.271
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 25,
+                    "cy": 219,
+                    "rx": 61.038,
+                    "ry": 68.505,
+                    "theta": -0.853
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1127,
+                    "cy": 317,
+                    "rx": 56.761,
+                    "ry": 61.933,
+                    "theta": -0.549
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 160,
+                    "cy": 2309,
+                    "rx": 49,
+                    "ry": 45,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1095,
+                    "cy": 2319,
+                    "rx": 46,
+                    "ry": 44,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 261,
+                    "cy": 3864,
+                    "rx": 42,
+                    "ry": 42,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": ""
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1064,
+                    "cy": 3848,
+                    "rx": 41,
+                    "ry": 42,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": ""
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image 6.jpeg2787335": {
+        "filename": "JPEG image 6.jpeg",
+        "size": 2787335,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1274,
+                    "cy": 330,
+                    "rx": 88.249,
+                    "ry": 97.882,
+                    "theta": -0.169
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1578,
+                    "cy": 338,
+                    "rx": 82,
+                    "ry": 89,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        870,
+                        877,
+                        1022,
+                        1018
+                    ],
+                    "all_points_y": [
+                        937,
+                        1092,
+                        1094,
+                        940
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        881,
+                        886,
+                        1030,
+                        1025
+                    ],
+                    "all_points_y": [
+                        1179,
+                        1333,
+                        1330,
+                        1184
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1320,
+                        1322,
+                        1465,
+                        1462
+                    ],
+                    "all_points_y": [
+                        1187,
+                        1335,
+                        1337,
+                        1189
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        891,
+                        900,
+                        1040,
+                        1033
+                    ],
+                    "all_points_y": [
+                        1413,
+                        1554,
+                        1558,
+                        1413
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1321,
+                        1325,
+                        1463,
+                        1463
+                    ],
+                    "all_points_y": [
+                        1419,
+                        1562,
+                        1563,
+                        1424
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        901,
+                        908,
+                        1045,
+                        1042
+                    ],
+                    "all_points_y": [
+                        1637,
+                        1773,
+                        1775,
+                        1638
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1327,
+                        1327,
+                        1461,
+                        1461
+                    ],
+                    "all_points_y": [
+                        1641,
+                        1778,
+                        1779,
+                        1645
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        914,
+                        920,
+                        1056,
+                        1050
+                    ],
+                    "all_points_y": [
+                        1850,
+                        1980,
+                        1982,
+                        1850
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1327,
+                        1329,
+                        1460,
+                        1462
+                    ],
+                    "all_points_y": [
+                        1852,
+                        1982,
+                        1982,
+                        1853
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        921,
+                        928,
+                        1060,
+                        1057
+                    ],
+                    "all_points_y": [
+                        2055,
+                        2181,
+                        2181,
+                        2058
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1163,
+                    "cy": 1022,
+                    "rx": 79.206,
+                    "ry": 83.346,
+                    "theta": -0.381
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1167,
+                    "cy": 1261,
+                    "rx": 74.218,
+                    "ry": 76.482,
+                    "theta": -0.267
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1602,
+                    "cy": 1266,
+                    "rx": 76,
+                    "ry": 79,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1174,
+                    "cy": 1488,
+                    "rx": 73,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1598,
+                    "cy": 1494,
+                    "rx": 73,
+                    "ry": 74,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1178,
+                    "cy": 1709,
+                    "rx": 71,
+                    "ry": 70,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1592,
+                    "cy": 1711,
+                    "rx": 69,
+                    "ry": 71,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1183,
+                    "cy": 1916,
+                    "rx": 69,
+                    "ry": 70,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1588,
+                    "cy": 1918,
+                    "rx": 68,
+                    "ry": 68,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1186,
+                    "cy": 2119,
+                    "rx": 69,
+                    "ry": 67,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 735,
+                    "cy": 262,
+                    "rx": 56.465,
+                    "ry": 67.526,
+                    "theta": -0.448
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1000,
+                    "cy": 323,
+                    "rx": 57,
+                    "ry": 62,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1806,
+                    "cy": 294,
+                    "rx": 54.804,
+                    "ry": 63.619,
+                    "theta": -0.015
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 845,
+                    "cy": 2316,
+                    "rx": 45,
+                    "ry": 43,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1736,
+                    "cy": 2314,
+                    "rx": 45,
+                    "ry": 43,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 912,
+                    "cy": 3818,
+                    "rx": 38,
+                    "ry": 37,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1688,
+                    "cy": 3815,
+                    "rx": 36,
+                    "ry": 34,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image 7.jpeg2843856": {
+        "filename": "JPEG image 7.jpeg",
+        "size": 2843856,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2418,
+                    "cy": 404,
+                    "rx": 87.268,
+                    "ry": 100.729,
+                    "theta": 0.542
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2731,
+                    "cy": 377,
+                    "rx": 87.268,
+                    "ry": 93.023,
+                    "theta": -2.536
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1997,
+                        2002,
+                        2149,
+                        2145
+                    ],
+                    "all_points_y": [
+                        1053,
+                        1208,
+                        1194,
+                        1040
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2001,
+                        2006,
+                        2150,
+                        2148
+                    ],
+                    "all_points_y": [
+                        1292,
+                        1438,
+                        1429,
+                        1284
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2450,
+                        2450,
+                        2597,
+                        2598
+                    ],
+                    "all_points_y": [
+                        1257,
+                        1407,
+                        1396,
+                        1247
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2008,
+                        2013,
+                        2154,
+                        2151
+                    ],
+                    "all_points_y": [
+                        1522,
+                        1665,
+                        1654,
+                        1513
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2450,
+                        2449,
+                        2594,
+                        2595
+                    ],
+                    "all_points_y": [
+                        1491,
+                        1634,
+                        1622,
+                        1481
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2014,
+                        2017,
+                        2158,
+                        2153
+                    ],
+                    "all_points_y": [
+                        1742,
+                        1878,
+                        1868,
+                        1733
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2446,
+                        2446,
+                        2591,
+                        2589
+                    ],
+                    "all_points_y": [
+                        1713,
+                        1850,
+                        1840,
+                        1702
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2020,
+                        2026,
+                        2159,
+                        2158
+                    ],
+                    "all_points_y": [
+                        1953,
+                        2080,
+                        2075,
+                        1945
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2026,
+                        2033,
+                        2165,
+                        2161
+                    ],
+                    "all_points_y": [
+                        2152,
+                        2278,
+                        2271,
+                        2148
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2293,
+                    "cy": 1109,
+                    "rx": 78.376,
+                    "ry": 81.385,
+                    "theta": 0.759
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2293,
+                    "cy": 1346,
+                    "rx": 76.482,
+                    "ry": 81.243,
+                    "theta": 0.518
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2746,
+                    "cy": 1314,
+                    "rx": 74.347,
+                    "ry": 84.327,
+                    "theta": 0.72
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2294,
+                    "cy": 1574,
+                    "rx": 74,
+                    "ry": 75,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2738,
+                    "cy": 1544,
+                    "rx": 79.091,
+                    "ry": 71.58,
+                    "theta": -0.82
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2293,
+                    "cy": 1793,
+                    "rx": 72.587,
+                    "ry": 73.541,
+                    "theta": 0.671
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2445,
+                        2444,
+                        2582,
+                        2586
+                    ],
+                    "all_points_y": [
+                        1927,
+                        2060,
+                        2053,
+                        1921
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2730,
+                    "cy": 1764,
+                    "rx": 69.425,
+                    "ry": 76.482,
+                    "theta": 0.936
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2294,
+                    "cy": 2001,
+                    "rx": 75.17,
+                    "ry": 71.58,
+                    "theta": -0.534
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2722,
+                    "cy": 1978,
+                    "rx": 76.771,
+                    "ry": 67.658,
+                    "theta": -0.492
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2297,
+                    "cy": 2204,
+                    "rx": 72,
+                    "ry": 69,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1875,
+                    "cy": 403,
+                    "rx": 56,
+                    "ry": 64,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2137,
+                    "cy": 430,
+                    "rx": 57,
+                    "ry": 65,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2975,
+                    "cy": 305,
+                    "rx": 54.804,
+                    "ry": 63.461,
+                    "theta": -2.844
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1950,
+                    "cy": 2417,
+                    "rx": 46,
+                    "ry": 43,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2878,
+                    "cy": 2379,
+                    "rx": 48,
+                    "ry": 44,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2011,
+                    "cy": 3899,
+                    "rx": 39,
+                    "ry": 35,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2809,
+                    "cy": 3902,
+                    "rx": 37,
+                    "ry": 35,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image 8.jpeg2793562": {
+        "filename": "JPEG image 8.jpeg",
+        "size": 2793562,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1913,
+                        1920,
+                        2080,
+                        2078
+                    ],
+                    "all_points_y": [
+                        316,
+                        504,
+                        487,
+                        306
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1920,
+                        1922,
+                        2081,
+                        2078
+                    ],
+                    "all_points_y": [
+                        599,
+                        773,
+                        762,
+                        589
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2409,
+                        2406,
+                        2562,
+                        2574
+                    ],
+                    "all_points_y": [
+                        565,
+                        737,
+                        726,
+                        549
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1924,
+                        1930,
+                        2080,
+                        2079
+                    ],
+                    "all_points_y": [
+                        869,
+                        1031,
+                        1020,
+                        859
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2402,
+                        2398,
+                        2552,
+                        2557
+                    ],
+                    "all_points_y": [
+                        837,
+                        1000,
+                        987,
+                        825
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1928,
+                        1931,
+                        2080,
+                        2080
+                    ],
+                    "all_points_y": [
+                        1123,
+                        1281,
+                        1267,
+                        1112
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2393,
+                        2389,
+                        2543,
+                        2547
+                    ],
+                    "all_points_y": [
+                        1091,
+                        1248,
+                        1237,
+                        1082
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1934,
+                        1935,
+                        2080,
+                        2079
+                    ],
+                    "all_points_y": [
+                        1364,
+                        1511,
+                        1502,
+                        1354
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        2388,
+                        2383,
+                        2532,
+                        2537
+                    ],
+                    "all_points_y": [
+                        1336,
+                        1485,
+                        1476,
+                        1328
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1935,
+                        1936,
+                        2080,
+                        2079
+                    ],
+                    "all_points_y": [
+                        1593,
+                        1733,
+                        1726,
+                        1587
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "not button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2239,
+                    "cy": 384,
+                    "rx": 87,
+                    "ry": 96,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2234,
+                    "cy": 665,
+                    "rx": 84.133,
+                    "ry": 93.152,
+                    "theta": 0.637
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2729,
+                    "cy": 628,
+                    "rx": 85.307,
+                    "ry": 94.306,
+                    "theta": -2.341
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2231,
+                    "cy": 930,
+                    "rx": 78.444,
+                    "ry": 89.251,
+                    "theta": -2.52
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2711,
+                    "cy": 897,
+                    "rx": 79.72,
+                    "ry": 91.191,
+                    "theta": 0.557
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2229,
+                    "cy": 1180,
+                    "rx": 80.405,
+                    "ry": 82.953,
+                    "theta": 0.506
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2696,
+                    "cy": 1152,
+                    "rx": 78.444,
+                    "ry": 84.77,
+                    "theta": -2.422
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2224,
+                    "cy": 1420,
+                    "rx": 77.463,
+                    "ry": 80.411,
+                    "theta": 0.272
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2680,
+                    "cy": 1393,
+                    "rx": 76.111,
+                    "ry": 84.327,
+                    "theta": 0.667
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2220,
+                    "cy": 1647,
+                    "rx": 70.032,
+                    "ry": 77.463,
+                    "theta": 0.795
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1847,
+                    "cy": 1883,
+                    "rx": 50,
+                    "ry": 48,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2833,
+                    "cy": 1837,
+                    "rx": 52,
+                    "ry": 46,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1895,
+                    "cy": 3448,
+                    "rx": 41,
+                    "ry": 37,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2710,
+                    "cy": 3451,
+                    "rx": 42,
+                    "ry": 36,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image 9.jpeg2826115": {
+        "filename": "JPEG image 9.jpeg",
+        "size": 2826115,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1137,
+                        1148,
+                        1307,
+                        1299
+                    ],
+                    "all_points_y": [
+                        236,
+                        421,
+                        419,
+                        236
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1151,
+                        1162,
+                        1314,
+                        1308
+                    ],
+                    "all_points_y": [
+                        520,
+                        691,
+                        691,
+                        519
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1630,
+                        1630,
+                        1785,
+                        1786
+                    ],
+                    "all_points_y": [
+                        514,
+                        686,
+                        682,
+                        511
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1166,
+                        1175,
+                        1328,
+                        1318
+                    ],
+                    "all_points_y": [
+                        787,
+                        950,
+                        949,
+                        786
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1631,
+                        1632,
+                        1779,
+                        1782
+                    ],
+                    "all_points_y": [
+                        781,
+                        945,
+                        939,
+                        779
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1178,
+                        1187,
+                        1334,
+                        1326
+                    ],
+                    "all_points_y": [
+                        1040,
+                        1195,
+                        1196,
+                        1041
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1632,
+                        1632,
+                        1778,
+                        1778
+                    ],
+                    "all_points_y": [
+                        1033,
+                        1188,
+                        1186,
+                        1033
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1191,
+                        1199,
+                        1342,
+                        1336
+                    ],
+                    "all_points_y": [
+                        1283,
+                        1428,
+                        1429,
+                        1282
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1632,
+                        1632,
+                        1774,
+                        1774
+                    ],
+                    "all_points_y": [
+                        1277,
+                        1422,
+                        1422,
+                        1274
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1204,
+                        1213,
+                        1349,
+                        1343
+                    ],
+                    "all_points_y": [
+                        1512,
+                        1651,
+                        1649,
+                        1513
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1458,
+                    "cy": 327,
+                    "rx": 85,
+                    "ry": 96,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1462,
+                    "cy": 603,
+                    "rx": 82.372,
+                    "ry": 90.21,
+                    "theta": -3.13
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1936,
+                    "cy": 596,
+                    "rx": 80.405,
+                    "ry": 90.215,
+                    "theta": 0.011
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1470,
+                    "cy": 865,
+                    "rx": 78,
+                    "ry": 83,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1930,
+                    "cy": 858,
+                    "rx": 79,
+                    "ry": 85,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1473,
+                    "cy": 1115,
+                    "rx": 78.444,
+                    "ry": 80.775,
+                    "theta": -0.578
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1920,
+                    "cy": 1107,
+                    "rx": 77,
+                    "ry": 79,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1478,
+                    "cy": 1353,
+                    "rx": 76,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1913,
+                    "cy": 1344,
+                    "rx": 75,
+                    "ry": 76,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1483,
+                    "cy": 1580,
+                    "rx": 71,
+                    "ry": 72,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1129,
+                    "cy": 1800,
+                    "rx": 45.536,
+                    "ry": 45.017,
+                    "theta": 0.492
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 2063,
+                    "cy": 1781,
+                    "rx": 50,
+                    "ry": 45,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1214,
+                    "cy": 3345,
+                    "rx": 38,
+                    "ry": 36,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1996,
+                    "cy": 3339,
+                    "rx": 38,
+                    "ry": 38,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image 10.jpeg2706418": {
+        "filename": "JPEG image 10.jpeg",
+        "size": 2706418,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        264,
+                        277,
+                        440,
+                        428
+                    ],
+                    "all_points_y": [
+                        266,
+                        444,
+                        454,
+                        276
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        284,
+                        300,
+                        460,
+                        444
+                    ],
+                    "all_points_y": [
+                        542,
+                        713,
+                        726,
+                        553
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        773,
+                        779,
+                        932,
+                        928
+                    ],
+                    "all_points_y": [
+                        575,
+                        740,
+                        749,
+                        582
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        307,
+                        321,
+                        477,
+                        464
+                    ],
+                    "all_points_y": [
+                        809,
+                        973,
+                        981,
+                        820
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        781,
+                        787,
+                        936,
+                        932
+                    ],
+                    "all_points_y": [
+                        837,
+                        993,
+                        999,
+                        843
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        327,
+                        340,
+                        491,
+                        480
+                    ],
+                    "all_points_y": [
+                        1063,
+                        1217,
+                        1223,
+                        1071
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        790,
+                        794,
+                        939,
+                        937
+                    ],
+                    "all_points_y": [
+                        1081,
+                        1234,
+                        1238,
+                        1088
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        347,
+                        360,
+                        508,
+                        496
+                    ],
+                    "all_points_y": [
+                        1303,
+                        1449,
+                        1452,
+                        1306
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        800,
+                        804,
+                        947,
+                        942
+                    ],
+                    "all_points_y": [
+                        1321,
+                        1463,
+                        1469,
+                        1325
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        366,
+                        378,
+                        522,
+                        512
+                    ],
+                    "all_points_y": [
+                        1530,
+                        1669,
+                        1674,
+                        1537
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 592,
+                    "cy": 376,
+                    "rx": 86.003,
+                    "ry": 96.093,
+                    "theta": -0.499
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 608,
+                    "cy": 648,
+                    "rx": 80.405,
+                    "ry": 93.023,
+                    "theta": -0.606
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 621,
+                    "cy": 909,
+                    "rx": 76.708,
+                    "ry": 83.346,
+                    "theta": -0.567
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 632,
+                    "cy": 1153,
+                    "rx": 77.859,
+                    "ry": 82.366,
+                    "theta": -0.543
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 645,
+                    "cy": 1385,
+                    "rx": 72.487,
+                    "ry": 80.405,
+                    "theta": -0.524
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 657,
+                    "cy": 1608,
+                    "rx": 71.526,
+                    "ry": 73.541,
+                    "theta": -0.58
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1080,
+                    "cy": 676,
+                    "rx": 78,
+                    "ry": 84,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1080,
+                    "cy": 929,
+                    "rx": 78.701,
+                    "ry": 84.327,
+                    "theta": -0.536
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1081,
+                    "cy": 1172,
+                    "rx": 74.521,
+                    "ry": 80.763,
+                    "theta": -0.507
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1082,
+                    "cy": 1400,
+                    "rx": 73.541,
+                    "ry": 77.463,
+                    "theta": -0.927
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 295,
+                    "cy": 1813,
+                    "rx": 52.847,
+                    "ry": 46.007,
+                    "theta": 0.665
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1246,
+                    "cy": 1832,
+                    "rx": 45.996,
+                    "ry": 44.082,
+                    "theta": -0.044
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 432,
+                    "cy": 3373,
+                    "rx": 41,
+                    "ry": 37,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1216,
+                    "cy": 3354,
+                    "rx": 39,
+                    "ry": 35,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            }
+        ],
+        "file_attributes": {}
+    },
+    "JPEG image.jpeg2923500": {
+        "filename": "JPEG image.jpeg",
+        "size": 2923500,
+        "regions": [
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1425,
+                    "cy": 971,
+                    "rx": 78.444,
+                    "ry": 85.313,
+                    "theta": 3.13
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1698,
+                    "cy": 974,
+                    "rx": 75,
+                    "ry": 79,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1049,
+                        1057,
+                        1190,
+                        1187
+                    ],
+                    "all_points_y": [
+                        1514,
+                        1649,
+                        1648,
+                        1512
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1057,
+                        1065,
+                        1201,
+                        1193
+                    ],
+                    "all_points_y": [
+                        1730,
+                        1860,
+                        1857,
+                        1728
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1067,
+                        1075,
+                        1205,
+                        1200
+                    ],
+                    "all_points_y": [
+                        1936,
+                        2060,
+                        2058,
+                        1933
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1076,
+                        1081,
+                        1209,
+                        1207
+                    ],
+                    "all_points_y": [
+                        2136,
+                        2256,
+                        2251,
+                        2131
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1083,
+                        1087,
+                        1215,
+                        1213
+                    ],
+                    "all_points_y": [
+                        2328,
+                        2445,
+                        2440,
+                        2323
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1090,
+                        1093,
+                        1221,
+                        1217
+                    ],
+                    "all_points_y": [
+                        2517,
+                        2629,
+                        2624,
+                        2508
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1466,
+                        1469,
+                        1596,
+                        1594
+                    ],
+                    "all_points_y": [
+                        1722,
+                        1850,
+                        1848,
+                        1720
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1467,
+                        1469,
+                        1594,
+                        1594
+                    ],
+                    "all_points_y": [
+                        1927,
+                        2049,
+                        2044,
+                        1923
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1471,
+                        1469,
+                        1597,
+                        1594
+                    ],
+                    "all_points_y": [
+                        2119,
+                        2242,
+                        2237,
+                        2116
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "polygon",
+                    "all_points_x": [
+                        1470,
+                        1473,
+                        1596,
+                        1594
+                    ],
+                    "all_points_y": [
+                        2310,
+                        2429,
+                        2423,
+                        2304
+                    ]
+                },
+                "region_attributes": {
+                    "category_id": "label",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1321,
+                    "cy": 1583,
+                    "rx": 72,
+                    "ry": 71,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "6"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1325,
+                    "cy": 1790,
+                    "rx": 69,
+                    "ry": 67,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "4"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1329,
+                    "cy": 1991,
+                    "rx": 69,
+                    "ry": 64,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "2"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1333,
+                    "cy": 2187,
+                    "rx": 66,
+                    "ry": 64,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "alarm"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1336,
+                    "cy": 2374,
+                    "rx": 65,
+                    "ry": 64,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_open"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1339,
+                    "cy": 2559,
+                    "rx": 64,
+                    "ry": 59,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "help"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1723,
+                    "cy": 1783,
+                    "rx": 68,
+                    "ry": 66,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "5"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1719,
+                    "cy": 1981,
+                    "rx": 66,
+                    "ry": 67,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "3"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1717,
+                    "cy": 2174,
+                    "rx": 65,
+                    "ry": 62,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "1"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1714,
+                    "cy": 2359,
+                    "rx": 64,
+                    "ry": 63,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "button",
+                    "pair": "door_close"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 922,
+                    "cy": 920,
+                    "rx": 54,
+                    "ry": 56,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1170,
+                    "cy": 970,
+                    "rx": 53,
+                    "ry": 53,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1903,
+                    "cy": 929,
+                    "rx": 50,
+                    "ry": 52,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1013,
+                    "cy": 2764,
+                    "rx": 43,
+                    "ry": 41,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            },
+            {
+                "shape_attributes": {
+                    "name": "ellipse",
+                    "cx": 1855,
+                    "cy": 2718,
+                    "rx": 42,
+                    "ry": 38,
+                    "theta": 0
+                },
+                "region_attributes": {
+                    "category_id": "not button"
+                }
+            }
+        ],
+        "file_attributes": {}
+    }
+}

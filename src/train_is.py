@@ -4,6 +4,7 @@ import os
 from glob import glob
 import pickle
 from typing import List
+import random
 
 # setup logger
 from detectron2.utils.logger import setup_logger
@@ -12,7 +13,29 @@ from detectron2.utils.logger import setup_logger
 from detectron2 import model_zoo
 from detectron2.engine import DefaultTrainer
 from detectron2.config import get_cfg, CfgNode
-from detectron2.data import MetadataCatalog, DatasetCatalog
+from detectron2.data import MetadataCatalog, DatasetCatalog, build_detection_train_loader
+
+import detectron2.data.transforms as T
+from detectron2.data import DatasetMapper  # the default mapper
+
+
+class Trainer(DefaultTrainer):
+    @classmethod
+    def build_train_loader(cls, cfg):
+        return build_detection_train_loader(
+            cfg,
+            mapper=DatasetMapper(
+                cfg,
+                is_train=True,
+                augmentations=[
+                    T.RandomContrast(0.75, 1.25),
+                    T.RandomBrightness(0.75, 1.2),
+                    T.RandomLighting(255),
+                    T.RandomFlip(0.2, horizontal=True),
+                    T.RandomResize([1024, 678], [512, 384]),
+                ],
+            ),
+        )
 
 
 def configure_dataset(path_to_dataset: str) -> List[dict]:
@@ -38,11 +61,12 @@ def configure_dataset(path_to_dataset: str) -> List[dict]:
             List[dict]: each image is represented by a dict in this list. dicts are in detectron2
                         format for datasets
         """
-        elevators = glob(f"{path_to_dataset}/*")
+        elevators = sorted(glob(f"{path_to_dataset}/*"))
         dataset: List[dict] = []
         for e in elevators:
-            imgs = glob(f"{e}/*")
-            for im in imgs:
+            imgs = sorted(glob(f"{e}/*"))
+            k = min(8, len(imgs)) if "mixed" not in e else len(imgs)
+            for im in random.sample(imgs, k=k):
                 with open(im, "rb") as f:
                     d = pickle.load(f)
                     dataset.append(d)
@@ -63,11 +87,11 @@ def configure_model(cfg: CfgNode, arch: str) -> None:
     cfg.merge_from_file(model_zoo.get_config_file(CONFIG))
     cfg.DATASETS.TRAIN = ("elevators",)
     cfg.DATASETS.TEST = ()
-    cfg.DATALOADER.NUM_WORKERS = 8
+    cfg.DATALOADER.NUM_WORKERS = 12
     cfg.MODEL.WEIGHTS = model_zoo.get_checkpoint_url(CONFIG)
-    cfg.SOLVER.IMS_PER_BATCH = 4
+    cfg.SOLVER.IMS_PER_BATCH = 2
     cfg.SOLVER.BASE_LR = 0.00025
-    cfg.SOLVER.MAX_ITER = 20_000
+    cfg.SOLVER.MAX_ITER = 25_000
     cfg.SOLVER.STEPS = []
     cfg.MODEL.ROI_HEADS.NUM_CLASSES = 3
 
@@ -94,7 +118,7 @@ def main():
         "--path_to_dataset",
         "-p",
         type=str,
-        default="/home/abhinavchadaga/cs/fri_II/final_project/datasets/" "panels",
+        default="/home/abhinavchadaga/cs/fri_II/final_project/datasets/panels/train",
     )
     parser.add_argument("--arch", "-a", choices=["cascade-rcnn", "mrcnn"], default="cascade-rcnn")
     args = parser.parse_args()

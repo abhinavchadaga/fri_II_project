@@ -2,7 +2,36 @@ import math
 from typing import List
 
 import numpy as np
-from skimage.draw import ellipse_perimeter, circle_perimeter
+from skimage.draw import ellipse_perimeter, circle_perimeter, disk, rectangle, ellipse, polygon
+
+
+def generate_opaque_mask(region: dict, height: int, width: int):
+    s_attr = region["shape_attributes"]
+    shape_type = s_attr["name"]
+
+    # px -> list of x values
+    # py -> list of y values
+    img = np.zeros((height, width, 3), dtype=np.uint8)
+    if shape_type == "circle":
+        rr, cc = disk(center=(s_attr["cy"], s_attr["cx"]), radius=s_attr["r"])
+    elif shape_type == "rect":
+        start = (s_attr["y"], s_attr["x"])
+        extent = (s_attr["height"], s_attr["width"])
+        rr, cc = rectangle(start=start, extent=extent)
+    elif shape_type == "ellipse":
+        rr, cc = ellipse(
+            r=s_attr["cy"],
+            c=s_attr["cx"],
+            r_radius=s_attr["ry"],
+            c_radius=s_attr["rx"],
+            rotation=np.deg2rad(s_attr["theta"]),
+        )
+    else:
+        rr, cc = polygon(r=s_attr["all_points_y"], c=s_attr["all_points_x"])
+
+    return rr, cc
+
+
 
 
 def generate_gt_coords(region: dict) -> List[int]:
