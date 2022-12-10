@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import torch
 from argparse import ArgumentParser
+import time
 
 from torchvision import transforms
 from torchvision.transforms import Resize, ToTensor
@@ -68,13 +69,15 @@ if __name__ == "__main__":
     im_path = args.path_to_img
     im = cv2.imread(im_path)
     im_height, im_width, _ = im.shape
+
+    start = time.time()
     predictor = DefaultPredictor(cfg)
     outputs = predictor(im)
 
-    # visualize output and write image
-    v = Visualizer(im[:, :, ::-1], scale=1, instance_mode=ColorMode.SEGMENTATION)
-    out = v.draw_instance_predictions(outputs["instances"].to("cpu"))
-    cv2.imwrite("first_pass.jpg", out.get_image()[:, :, ::-1])
+    # # visualize output and write image
+    # v = Visualizer(im[:, :, ::-1], scale=1, instance_mode=ColorMode.SEGMENTATION)
+    # out = v.draw_instance_predictions(outputs["instances"].to("cpu"))
+    # cv2.imwrite("first_pass.jpg", out.get_image()[:, :, ::-1])
 
     instances = outputs["instances"]
 
@@ -123,8 +126,8 @@ if __name__ == "__main__":
             center = [(bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2]
             button_centers.append(center)
 
-    labeled_img = labeled_img.get_image()
-    cv2.imwrite("labeled_val_img.jpg", labeled_img)
+    # labeled_img = labeled_img.get_image()[:, :, ::-1]
+    # cv2.imwrite("labeled_val_img.jpg", labeled_img)
 
     index = label_indices.get(str(tgt_floor))
     if index is None:
@@ -150,65 +153,11 @@ if __name__ == "__main__":
     final_output = cv2.circle(
         im,
         (int(nearest_btns[correct_btn][0]), int(nearest_btns[correct_btn][1])),
-        radius=5,
-        color=(255, 0, 0),
-        thickness=5,
+        radius=20,
+        color=(0, 0, 255),
+        thickness=20,
     )
+    stop = time.time()
     cv2.imwrite("final_output.jpg", final_output)
-
     print("done!")
-# cv2.imwrite(
-#     f"/home/abhinavchadaga/cs/fri_II/final_project/labels/{prediction[0]}.jpg", label_arr
-# )
-#     if class_id == 0:
-#         m = instances.pred_masks[i].detach().to("cpu").numpy()
-#         m = np.expand_dims(m, axis=2)
-#         m = np.concatenate([m, m, m], axis=2) * 255
-#         buttons = buttons + m
-
-# label_mask = instances.pred_masks[label_indices["1"]].detach().to("cpu").numpy()
-# label_mask = label_mask * 255  # make red
-# label_mask = np.expand_dims(label_mask, axis=2)
-# bg = np.zeros_like(label_mask)
-# label_mask = np.concatenate([label_mask, bg, bg], axis=2)
-# print(label_mask.shape)
-
-# association_input = (buttons + label_mask).astype(np.uint8)
-# association_input = Image.fromarray(association_input)
-# t = transforms.Compose([Resize((224, 224)), ToTensor()])
-# association_input = t(association_input)
-# association_input = torch.unsqueeze(association_input, dim=0)
-# association_input = resize_with_padding(association_input, (224, 224))
-# association_input = torch.tensor(association_input, dtype=torch.float32).unsqueeze(0)
-# association_input = torch.transpose(association_input, 3, 1)
-
-# print(association_input.shape)
-# bbox = label_btns_model(association_input).squeeze(0)
-# bbox = bbox.tolist()
-# bbox = [
-#     int(bbox[0] * im_width),
-#     int(bbox[1] * im_height),
-#     int(bbox[2] * im_width),
-#     int(bbox[3] * im_height),
-# ]
-
-# min_dist = float("inf")
-# min_index = -1
-# for i in range(len(instances)):
-#     class_id = instances.pred_classes[i]
-#     if class_id != 0:
-#         continue
-
-#     box = instances.pred_boxes[i].tensor.squeeze(0).tolist()
-
-#     distance = sum([(x[1] - x[0] ** 2) for x in zip(bbox, box)])
-#     if distance < min_dist:
-#         min_dist = distance
-#         min_index = i
-
-# btn_box = instances.pred_boxes[min_index].tensor.squeeze(0).type(torch.int32).tolist()
-# print(bbox)
-# correct_button = cv2.rectangle(
-#     im, (btn_box[0], btn_box[1]), (btn_box[2], btn_box[3]), color=(255, 0, 0), thickness=5
-# )
-# print("done")
+    print(f"elapsed time: {stop - start}")
